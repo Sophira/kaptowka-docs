@@ -1,6 +1,6 @@
 ʞɐdʇomʞɐ: An Unofficial Guide
 ==============================
-By Sophie Hamilton (<https://twitch.tv/sophira/>)
+By Sophie Hamilton (<https://twitch.tv/sophira/>)  
 Written 2020-06-07
 
 ʞɐdʇomʞɐ (that is, "kaptowka" flipped vertically) is a one-shot multiplayer
