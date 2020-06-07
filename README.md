@@ -141,11 +141,11 @@ As mentioned earlier, the game is multiplayer and each player gets their own
 gardening bot to control. This can lead to situations where multiple players
 queue up the same commands, trolls attempt to ruin the game, etc.
 
-In the case of multiple commands issuing the same commands, what each bot will
-do depends on what state the cell is in after the bot moves there, when it
-attempts to carry out the command; as long as the conditions are right to carry
-out the command, it will be carried out and the associated delay incurred,
-regardless of whether other players are or will be attempting to do the same.
+In the case of multiple players issuing the same commands, what each bot will do
+depends on what state the cell is in after the bot moves there, when it attempts
+to carry out the command; as long as the conditions are right to carry out the
+command, it will be carried out and the associated delay incurred, regardless of
+whether other players are or will be attempting to do the same.
 
 The delay does *not* get shortened in the case of multiple players doing the
 same operation, except where this involves cutting a tree; in this case, any
