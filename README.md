@@ -298,4 +298,8 @@ me to add, please contact me on Twitch - I'm available as "Sophira". If you
 mention my name in the Twitch chat channel, I will probably see it immediately,
 even if I'm not actively playing.
 
+This document is also available as a git repository at
+<https://github.com/Sophira/kaptowka-docs/>, and pull requests would be greatly
+appreciated!
+
 Have fun!
