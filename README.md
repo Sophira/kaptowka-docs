@@ -51,7 +51,7 @@ commands are:
 * `!help`: Show the available commands.
 
 The `!water`, `!plant` and `!cut` commands expect one or more cell references to be
-given. For example, "!water a1 b1" will command your bot to water the trees in
+given. For example, `!water a1 b1` will command your bot to water the trees in
 cells A1 and B1. Each player gets their own individual bot.
 
 Each of the commands, apart from !help, has a delay associated with it, in
