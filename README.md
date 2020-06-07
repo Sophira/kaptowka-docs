@@ -54,7 +54,7 @@ The `!water`, `!plant` and `!cut` commands expect one or more cell references to
 given. For example, `!water a1 b1` will command your bot to water the trees in
 cells A1 and B1. Each player gets their own individual bot.
 
-Each of the commands, apart from !help, has a delay associated with it, in
+Each of the commands, apart from `!help`, has a delay associated with it, in
 addition to a nominal delay incurred by having your bot move to a new location:
 
 * `!water`: Delays 30 seconds if your bot successfully waters a tree,
