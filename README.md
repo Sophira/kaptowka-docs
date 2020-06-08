@@ -15,7 +15,7 @@ It is developed by the following people:
 * devantics/CruelMotivator (<https://devantics.itch.io/>)
 * Felegz (<https://felegz.itch.io/>)
 * Victory (<https://www.facebook.com/aitova.victory>)
-* Aviktorov (<https://aviktorov.itch.io/>)
+* Andrey Viktorov/aviktorov (<https://twitter.com/aviktorov>)
 * vrumie (<https://www.facebook.com/vrumie>)
 
 Premise
