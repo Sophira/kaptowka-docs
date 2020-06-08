@@ -287,7 +287,8 @@ Frequently Asked Questions
 
 4.  **What does "kaptowka" mean?**
 
-    In Russian, "kaptowka" (картошка) means "potato".
+    "kaptowka" is the word "картошка" represented by ASCII-only characters. The
+    word means "potato" and would properly be transliterated as "kartoshka".
 
 Conclusion
 ----------
