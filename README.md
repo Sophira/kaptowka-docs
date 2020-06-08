@@ -16,6 +16,7 @@ It is developed by the following people:
 * Felegz (<https://felegz.itch.io/>)
 * Victory (<https://www.facebook.com/aitova.victory>)
 * Aviktorov (<https://aviktorov.itch.io/>)
+* vrumie (<https://www.facebook.com/vrumie>)
 
 Premise
 -------
