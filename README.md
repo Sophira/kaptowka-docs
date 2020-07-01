@@ -292,6 +292,13 @@ Frequently Asked Questions
     characters. The word means "potato" and would properly be transliterated as
     "kartoshka".
 
+5.  **Has the maximum of 675 healthy trees ever been reached?**
+
+    Yes! On 21st June 2020 at 22:00:43 GMT,
+    [the maximum of 675 healthy trees was reached (video)](https://www.twitch.tv/kaptowkagame/clip/TentativeAgitatedBillDatBoi)!
+    To the knowledge of this guide's creator, this is the only time this has
+    happened thus far (as of July 1st, 2020).
+
 Conclusion
 ----------
 
