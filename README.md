@@ -1,7 +1,7 @@
 ʞɐdʇomʞɐ: An Unofficial Guide
 ==============================
 By Sophie Hamilton (<https://twitch.tv/sophira/>)  
-Written 2020-06-07
+Last updated: July 1, 2020
 
 ʞɐdʇomʞɐ (that is, "kaptowka" flipped vertically) is a one-shot multiplayer
 Twitch game/interactive experience on Twitch, developed for the game jam Ludum
@@ -294,10 +294,10 @@ Frequently Asked Questions
 
 5.  **Has the maximum of 675 healthy trees ever been reached?**
 
-    Yes! On 21st June 2020 at 22:00:43 GMT,
+    Yes! On June 21, 2020 at 22:00:43 GMT,
     [the maximum of 675 healthy trees was reached (video)](https://www.twitch.tv/kaptowkagame/clip/TentativeAgitatedBillDatBoi)!
     To the knowledge of this guide's creator, this is the only time this has
-    happened thus far (as of July 1st, 2020).
+    happened thus far (as of July 1, 2020).
 
 Conclusion
 ----------
