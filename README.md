@@ -1,7 +1,7 @@
 ʞɐdʇomʞɐ: An Unofficial Guide
 ==============================
 By Sophie Hamilton (<https://twitch.tv/sophira/>)  
-Last updated: July 1, 2020
+Last updated: July 22, 2020
 
 ʞɐdʇomʞɐ (that is, "kaptowka" flipped vertically) is a one-shot multiplayer
 Twitch game/interactive experience on Twitch, developed for the game jam Ludum
@@ -28,7 +28,7 @@ reach its destination.
 
 You do this by planting and watering trees in each of the ship's 15 sectors, and
 the stream automatically switches to a different sector every 6 minutes. A
-minimum of 100 healthy trees are required in order to keep the oxygen level from
+minimum of 200 healthy trees are required in order to keep the oxygen level from
 depleting, and the less trees there are, the faster the oxygen level will
 deplete. The game ends, forever, when either the oxygen level hits 0% or the
 ship reaches its destination (which will happen at midnight GMT on March 21,
@@ -123,15 +123,15 @@ incurred beyond the time spent moving to the cell.
 The Oxygen Level
 ----------------
 
-When the number of trees falls below 100, the oxygen level will start to fall,
+When the number of trees falls below 200, the oxygen level will start to fall,
 and a timer will appear showing how long it would take for the oxygen level to
 fully deplete if there were no healthy trees left. (Note that this timer will
 not be correct as long as there are healthy trees remaining; the more healthy
 trees there are, the slower it will take for the oxygen level to deplete.)
 
-If the number of healthy trees goes back above 100, the depletion timer will
+If the number of healthy trees goes back above 200, the depletion timer will
 disappear and the oxygen level will start to rise again. The more healthy trees
-above 100 that there are, the faster the oxygen level will replenish.
+above 200 that there are, the faster the oxygen level will replenish.
 
 If the oxygen level falls to 0%, the game will end.
 
@@ -279,7 +279,7 @@ Frequently Asked Questions
     possible, even if it appears to have no leaves on its branches.
 
 3.  **The oxygen depletion timer that appears when the number of healthy trees
-    goes below 100 is wrong!**
+    goes below 200 is wrong!**
 
     That timer measures how fast the oxygen would deplete if there were no
     healthy trees at all. As long as there are healthy trees, the oxygen will
@@ -298,6 +298,12 @@ Frequently Asked Questions
     [the maximum of 675 healthy trees was reached (video)](https://www.twitch.tv/kaptowkagame/clip/TentativeAgitatedBillDatBoi)!
     To the knowledge of this guide's creator, this is the only time this has
     happened thus far (as of July 1, 2020).
+
+6.  **Why does the stream show "100" above the healthy trees bar?**
+
+    The threshold for the minimum number of healthy trees required to keep the
+    oxygen level from dropping changed in mid-July 2020; it used to be 100, but
+    was raised to 200 as a game-balancing measure.
 
 Conclusion
 ----------
