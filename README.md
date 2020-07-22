@@ -305,6 +305,16 @@ Frequently Asked Questions
     oxygen level from dropping changed in mid-July 2020; it used to be 100, but
     was raised to 200 as a game-balancing measure.
 
+Game Update History
+-------------------
+
+Note that there may be other updates to the game which I have not noticed; this
+section details only the major changes.
+
+* **July 20-21, 2020 (approx)**: The number of healthy trees required for the
+                                 oxygen level to be stable is raised from 100 to
+                                 200.
+
 Conclusion
 ----------
 
