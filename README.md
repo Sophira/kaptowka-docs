@@ -107,7 +107,7 @@ The Lifecycle of Trees
 ----------------------
 
 **(note: This section may be outdated; I have not yet been able to confirm that
-the gema still works this way as of the update on August 18, 2020.)**
+the game still works this way as of the update on August 18, 2020.)**
 
 Upon being planted or watered, a tree will be "healthy" and contribute to the
 ship's oxygen for the next 5 hours (about 3-4 complete ship rotations), at which
