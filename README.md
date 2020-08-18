@@ -1,7 +1,7 @@
 ʞɐdʇomʞɐ: An Unofficial Guide
 ==============================
 By Sophie Hamilton (<https://twitch.tv/sophira/>)  
-Last updated: July 22, 2020
+Last updated: August 18, 2020
 
 ʞɐdʇomʞɐ (that is, "kaptowka" flipped vertically) is a one-shot multiplayer
 Twitch game/interactive experience on Twitch, developed for the game jam Ludum
@@ -49,14 +49,18 @@ commands are:
 * `!cut` (`!c`): Cut down a tree in the given cell (to be used when a tree has
                  died and can no longer be watered).
 * `!dye` (`!d`): Dye a tree in the given cell to be the given hex colour.
+* `!cancel`: Stops your current wait time and clears your command queue. Can
+             only be used once per sector switch.
 * `!help`: Show the available commands.
 
 The `!water`, `!plant` and `!cut` commands expect one or more cell references to be
 given. For example, `!water a1 b1` will command your bot to water the trees in
 cells A1 and B1. Each player gets their own individual bot.
 
-Each of the commands, apart from `!help`, has a delay associated with it, in
-addition to a nominal delay incurred by having your bot move to a new location:
+Each of the commands, apart from `!cancel` and `!help`, has a delay associated
+with it (during which an appropriately coloured wait timer will be shown with an
+icon in the middle), in addition to a nominal delay incurred by having your bot
+move to a new location:
 
 * `!water`: Delays 30 seconds if your bot successfully waters a tree,
 * `!plant`: Delays 90 seconds (1:30) if your bot successfully plants a tree,
@@ -74,10 +78,14 @@ it, and delay for 30 seconds.
 
 During the delay period, your bot cannot carry out any additional commands.
 However, commands will be queued and your bot will carry out any new commands
-you give it as soon as it is able to do so. There is no way to "unqueue" or
-"cancel" commands that have already been given for the current sector, but when
-a sector switch occurs, all queues are cleared automatically and all ongoing
-delays from the previous sector no longer apply.
+you give it as soon as it is able to do so.
+
+You can use the `!cancel` command (new in the update as of August 18, 2020) once
+per sector switch to stop your current wait time and clear your command queue.
+This does not currently reverse the action that took place, and so can be used
+to work in an extra `!plant`, `!water` or `!dye`. (This may be a bug.) In
+addition, when a sector switch occurs, all queues are cleared automatically and
+all ongoing delays from the previous sector no longer apply.
 
 To dye a tree, the command is slightly different: `!dye (hex color) (cells)`.
 For example, to dye the trees in A1 and A2 red, you might use the command 
@@ -97,6 +105,9 @@ command, so you can feel free to use the Twitch chat to talk to other players.
 
 The Lifecycle of Trees
 ----------------------
+
+**(note: This section may be outdated; I have not yet been able to confirm that
+the gema still works this way as of the update on August 18, 2020.)**
 
 Upon being planted or watered, a tree will be "healthy" and contribute to the
 ship's oxygen for the next 5 hours (about 3-4 complete ship rotations), at which
@@ -265,9 +276,12 @@ Frequently Asked Questions
 
 1.  **Is there a way to "cancel" or "unqueue" commands?**
 
-    As of the current time of writing, no, there isn't. The only current method
-    of doing this is when a sector switch occurs; at that point, all queues are
-    reset.
+    Yes! As of the update on August 18, 2020, this is now possible with the
+    `!cancel` command, which can be used once per sector switch and will stop
+    your current wait time and clear your entire command queue.
+
+    You can also wait for a sector switch to occur; at that point, all queues
+    are reset.
 
 2.  **Is it worth watering trees without leaves?**
 
@@ -297,7 +311,7 @@ Frequently Asked Questions
     Yes! On June 21, 2020 at 22:00:43 GMT,
     [the maximum of 675 healthy trees was reached (video)](https://www.twitch.tv/kaptowkagame/clip/TentativeAgitatedBillDatBoi)!
     To the knowledge of this guide's creator, this is the only time this has
-    happened thus far (as of July 1, 2020).
+    happened thus far (as of August 18, 2020).
 
 6.  **Why does the stream show "100" above the healthy trees bar?**
 
@@ -314,6 +328,11 @@ section details only the major changes.
 * **July 20-21, 2020 (approx)**: The number of healthy trees required for the
                                  oxygen level to be stable is raised from 100 to
                                  200.
+
+* **August 18, 2020**: The UI is refreshed (colours and icons for wait times,
+                       fans on both sides of the ship and a visual update for
+                       the ship, plus a new skybox) and some rebalancing occurs.
+                       The `!cancel` command is added.
 
 Conclusion
 ----------
