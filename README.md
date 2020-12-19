@@ -1,7 +1,7 @@
 ʞɐdʇomʞɐ: An Unofficial Guide
 ==============================
 By Sophie Hamilton (<https://twitch.tv/sophira/>)  
-Last updated: August 19, 2020
+Last updated: December 19, 2020
 
 ʞɐdʇomʞɐ (that is, "kaptowka" flipped vertically) is a one-shot multiplayer
 Twitch game/interactive experience on Twitch, developed for the game jam Ludum
@@ -283,7 +283,26 @@ Frequently Asked Questions
     You can also wait for a sector switch to occur; at that point, all queues
     are reset.
 
-2.  **Is it worth watering trees without leaves?**
+2.  **My bot isn't showing up on some sectors, even when I give it commands.
+    What gives?**
+
+    Occasionally the game does this, and it can be annoying. My personal theory
+    is that the game spawns your bot in the previous sector but the bot gets
+    stuck on something sometimes, and the pathfinding algorithm can't figure a
+    way out to the cell you told it to go to.
+
+    The bot always seems to recover by the next sector somehow, but recently I
+    discovereed a trick to work around it: If you use the `!cancel` command, and
+    then direct the bot to go to the opposite side (left/right) of the board,
+    the bot always seems to manage to make it there. For example, if you
+    initially tried going to cell A1 and it didn't work, then you should
+    `!cancel` and tell it to go to cell A5 instead (or another cell that's on
+    the opposite side). Chance are good that it'll work. 
+
+    The downside, of course, is that you lose your one cancel for the sector,
+    but it's better than not doing anything at all!
+
+3.  **Is it worth watering trees without leaves?**
 
     If a tree has no leaves on it, and does not have the leaf falling animation,
     the tree is dead and cannot be watered. At that point the only thing you can
@@ -292,7 +311,7 @@ Frequently Asked Questions
     If the tree is still shedding leaves, you should water it as soon as
     possible, even if it appears to have no leaves on its branches.
 
-3.  **The oxygen depletion timer that appears when the number of healthy trees
+4.  **The oxygen depletion timer that appears when the number of healthy trees
     goes below 100 is wrong!**
 
     That timer measures how fast the oxygen would deplete if there were no
@@ -300,13 +319,13 @@ Frequently Asked Questions
     deplete slower than shown, and will deplete slower still the more healthy
     trees there are.
 
-4.  **What does "kaptowka" mean?**
+5.  **What does "kaptowka" mean?**
 
     "kaptowka" is the Russian word "картошка" represented by ASCII-only
     characters. The word means "potato" and would properly be transliterated as
     "kartoshka".
 
-5.  **Has the maximum of 675 healthy trees ever been reached?**
+6.  **Has the maximum of 675 healthy trees ever been reached?**
 
     Yes! On June 21, 2020 at 22:00:43 GMT,
     [the maximum of 675 healthy trees was reached (video)](https://www.twitch.tv/kaptowkagame/clip/TentativeAgitatedBillDatBoi)!
