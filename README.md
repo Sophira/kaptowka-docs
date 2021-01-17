@@ -1,7 +1,7 @@
 ʞɐdʇomʞɐ: An Unofficial Guide
 ==============================
 By Sophie Hamilton (<https://twitch.tv/sophira/>)  
-Last updated: December 19, 2020
+Last updated: January 17, 2021
 
 ʞɐdʇomʞɐ (that is, "kaptowka" flipped vertically) is a one-shot multiplayer
 Twitch game/interactive experience on Twitch, developed for the game jam Ludum
@@ -88,7 +88,7 @@ addition, when a sector switch occurs, all queues are cleared automatically and
 all ongoing delays from the previous sector no longer apply.
 
 To dye a tree, the command is slightly different: `!dye (hex color) (cells)`.
-For example, to dye the trees in A1 and A2 red, you might use the command 
+For example, to dye the trees in A1 and A2 red, you might use the command
 `!dye #ff0000 a1 a2`. The dye will last until either the tree is dyed again, or
 the tree dies.
 
@@ -203,7 +203,7 @@ There are certain strategies which are worth bearing in mind:
 3.  Unless you're short on time, it can sometimes be best to start off with just
     one instruction; for example, if you intend on watering trees A1 through A5,
     start off with just a single `!w a1`. This has several benefits:
- 
+
     * Your bot can carry out the first command while you're typing the others.
     * When playing with multiple players, it can signal to the other players
       where you're thinking of moving next, making it easier to avoid stepping
@@ -218,7 +218,7 @@ There are certain strategies which are worth bearing in mind:
     `!dye`) is a multiple of 30 seconds, it can be helpful to think of delays in
     30-second blocks, with each sector giving you 12 blocks of time to do your
     commands. With this frame of reference:
- 
+
     * Watering a tree will delay 1 block of time,
     * Planting a tree will delay 3 blocks of time,
     * Cutting a tree takes either 1 or 3 blocks of time,
@@ -235,12 +235,12 @@ There are certain strategies which are worth bearing in mind:
     command structures, depending on the situation (note: a "short" command
     means watering a tree/cutting a dead tree, while a "long" command means
     planting a tree or accidentally cutting a live tree):
- 
+
     1. 1 short command first, followed by 4 long commands
     2. 4 short commands first, followed by 3 long commands
     3. 7 short commands first, followed by 2 long commands
     4. 10 short commands first, followed by 1 long command
- 
+
     These structures are not always the most optimal, but they account for the
     time spent by the bot moving between squares, as well as taking advantage of
     the fact that delay periods occur after commands have been carried out in
@@ -297,7 +297,7 @@ Frequently Asked Questions
     the bot always seems to manage to make it there. For example, if you
     initially tried going to cell A1 and it didn't work, then you should
     `!cancel` and tell it to go to cell A5 instead (or another cell that's on
-    the opposite side). Chance are good that it'll work. 
+    the opposite side). Chance are good that it'll work.
 
     The downside, of course, is that you lose your one cancel for the sector,
     but it's better than not doing anything at all!
@@ -307,7 +307,7 @@ Frequently Asked Questions
     If a tree has no leaves on it, and does not have the leaf falling animation,
     the tree is dead and cannot be watered. At that point the only thing you can
     do with it is to cut it, freeing the cell up ready to be replanted.
- 
+
     If the tree is still shedding leaves, you should water it as soon as
     possible, even if it appears to have no leaves on its branches.
 
@@ -327,10 +327,14 @@ Frequently Asked Questions
 
 6.  **Has the maximum of 675 healthy trees ever been reached?**
 
-    Yes! On June 21, 2020 at 22:00:43 GMT,
-    [the maximum of 675 healthy trees was reached (video)](https://www.twitch.tv/kaptowkagame/clip/TentativeAgitatedBillDatBoi)!
-    To the knowledge of this guide's creator, this is the only time this has
-    happened thus far (as of August 18, 2020).
+    Yes! The maximum of 675 healthy trees has been reached twice, and both times
+    have clips!
+
+    * [June 21, 2020 at 22:00:43 GMT](https://www.twitch.tv/kaptowkagame/clip/TentativeAgitatedBillDatBoi)
+    * [January 17, 2021 at 03:16:22 GMT](https://clips.twitch.tv/AggressiveYummyFennelWholeWheat)
+
+    To the knowledge of this guide's creator, these are the only times this has
+    happened thus far (as of January 17, 2021).
 
 Game Update History
 -------------------
