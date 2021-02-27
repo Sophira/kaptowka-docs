@@ -327,11 +327,12 @@ Frequently Asked Questions
 
 6.  **Has the maximum of 675 healthy trees ever been reached?**
 
-    Yes! The maximum of 675 healthy trees has been reached twice, and both times
+    Yes! The maximum of 675 healthy trees has been reached thrice, and both times
     have clips!
 
     * [June 21, 2020 at 22:00:43 GMT](https://www.twitch.tv/kaptowkagame/clip/TentativeAgitatedBillDatBoi)
     * [January 17, 2021 at 03:16:22 GMT](https://clips.twitch.tv/AggressiveYummyFennelWholeWheat)
+    * [February 27, 2021 at 19:53:42 GMT](https://clips.twitch.tv/SuaveFragileFloofFrankerZ-6BSujAxo8-FB-zO7)
 
     To the knowledge of this guide's creator, these are the only times this has
     happened thus far (as of January 17, 2021).
