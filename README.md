@@ -221,7 +221,7 @@ GitHub](https://github.com/Sophira/kaptowka-docs/commits/master).
 
 2.  **What does "kaptowka" mean?**
 
-    "kaptowka" was the Russian word "картошка" represented by ASCII-only
+    "kaptowka" is the Russian word "картошка" represented by ASCII-only
     characters. The word means "potato" and would properly be transliterated as
     "kartoshka".
 
