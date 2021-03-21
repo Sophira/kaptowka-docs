@@ -18,12 +18,12 @@ It was developed by the following people:
 * Andrey Viktorov/aviktorov (<https://twitter.com/aviktorov>)
 * vrumie (<https://www.facebook.com/vrumie>)
 
-The game ended on March 21, 2021, with the ship arriving at its destination with
-666 healthy trees. However, after the ending, players were allowed to continue
-watering the ship until it got to 675 healthy trees, at which point the game
-entered a 'museum mode', where it will stay for about a month. It is currently
-no longer necessary to water any trees, and cutting is disabled, leaving players
-free to use the `!dye` command as they desire.
+**The game ended on March 21, 2021, with the ship arriving at its destination
+with 666 healthy trees.** However, after the ending, players were allowed to
+continue watering the ship until it got to 675 healthy trees, at which point the
+game entered a 'museum mode', where it will stay for about a month. It is
+currently no longer necessary to water any trees, and cutting is disabled,
+leaving players free to use the `!dye` command as they desire.
 
 Premise
 -------
