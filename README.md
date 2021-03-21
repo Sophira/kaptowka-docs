@@ -204,12 +204,12 @@ GitHub](https://github.com/Sophira/kaptowka-docs/commits/master).
     What gives?**
 
     Occasionally the game does this, and it can be annoying. My personal theory
-    was that the game spawns your bot in the previous sector but the bot gets
+    is that the game spawns your bot in the previous sector but the bot gets
     stuck on something sometimes, and the pathfinding algorithm can't figure a
     way out to the cell you told it to go to.
 
     The bot always seems to recover by the next sector somehow, but recently I
-    discovereed a trick to work around it: If you use the `!cancel` command, and
+    discovered a trick to work around it: If you use the `!cancel` command, and
     then direct the bot to go to the opposite side (left/right) of the board,
     the bot always seems to manage to make it there. For example, if you
     initially tried going to cell A1 and it didn't work, then you should
@@ -225,18 +225,20 @@ GitHub](https://github.com/Sophira/kaptowka-docs/commits/master).
     characters. The word means "potato" and would properly be transliterated as
     "kartoshka".
 
-3.  **Has the maximum of 675 healthy trees ever been reached?**
+3.  **Was the maximum of 675 healthy trees ever reached?**
 
-    Yes! The maximum of 675 healthy trees has been reached three times now, and
-    they all have clips!
+    Yes! Not counting the post-game climb, the maximum of 675 healthy trees was
+    reached three times over the course of the game, and they all have clips!
 
     * [June 21, 2020 at 22:00:43 GMT](https://www.twitch.tv/kaptowkagame/clip/TentativeAgitatedBillDatBoi)
     * [January 17, 2021 at 03:16:22 GMT](https://clips.twitch.tv/AggressiveYummyFennelWholeWheat)
     * [February 27, 2021 at 19:53:27 GMT](https://www.twitch.tv/kaptowkagame/clip/SuaveFragileFloofFrankerZ-6BSujAxo8-FB-zO7)
 
-    To the knowledge of this guide's creator, these are the only times this has
-    happened thus far (as of February 28, 2021). If any are missing, please let
-    me know!
+    To the knowledge of this guide's creator, these are the only times that the
+    maximum of 675 healthy trees was reached over the course of the game (apart
+    from the post-game climb to 675 trees, which I am not counting as trees were
+    already changed to not require watering at the time). If any are missing,
+    please let me know!
 
 Game Update History
 -------------------
